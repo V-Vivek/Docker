@@ -9,7 +9,7 @@
 - The Dockerfile is used as a blueprint for building a Docker image.
 
 # Docker Image
-- It is a packaged, executable software artifact that contains everything needed to run an application, including the application code, libraries, and other dependencies. 
+- It is a packaged, executable software artifact that contains everything needed to run an application, including the application code, libraries and other dependencies. 
 - It is created from a Dockerfile and can be thought of as a snapshot of an application and its dependencies at a specific point in time.
 - Docker images can be distributed and run on any machine that supports Docker, making it easier to deploy applications across different environments.
 
