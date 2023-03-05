@@ -19,4 +19,7 @@
 - It provides a lightweight, portable way to run applications consistently across different computing environments.
 - Multiple containers can be run on a single machine and containers can be scaled up or down as needed to meet demand.
 
+![image](https://user-images.githubusercontent.com/117569148/222961581-022482fb-81aa-46a5-bf52-ddbf0bae37bc.png)
+
+# Summary
 ![image](https://user-images.githubusercontent.com/117569148/222461084-66837f35-077b-4e88-8d4d-c2847da894af.png)
