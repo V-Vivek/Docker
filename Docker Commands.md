@@ -75,9 +75,11 @@ docker stop <container-id>
 docker container rm <container-id>
 ```
 ![image](https://user-images.githubusercontent.com/117569148/222965915-a7cdacad-6ab8-4856-b9ac-2f67477a1834.png)
-<br />  
 
 ![image](https://user-images.githubusercontent.com/117569148/222966530-f2d4e413-c345-48ea-90d7-33609662c347.png)
 
+![image](https://user-images.githubusercontent.com/117569148/222967413-64f8cf2a-5864-4c95-ab42-439a0816e797.png)
+
+![image](https://user-images.githubusercontent.com/117569148/222967970-cb81fac3-db6b-43f5-baa3-64919596ca97.png)
 
 
