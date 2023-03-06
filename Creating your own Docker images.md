@@ -104,3 +104,56 @@ RUN curl <file-url> -o <destination>/<file-name>.zip \
 
 ## Summary
 ![image](https://user-images.githubusercontent.com/117569148/222972255-f6c22b0d-3da1-4362-a9e1-cae59755c25d.png)
+
+# Choosing a start command for your Docker image
+
+## Running a shell command at startup
+
+The CMD instruction:
+- Runs when the image is started.
+- Does not increase the size of the image
+- Does not add any time to the build
+- If multiple CMD instruction exists, only the last one will have an effect
+
+```
+CMD <shell-command>
+```
+
+## Typical usage
+ - Starting an application to run a workflow
+```
+CMD python3 my_pipeline.py
+```
+```
+CMD postgres
+```
+<br />
+
+- Starting a script that, in turn, starts multiple applications
+```
+CMD start.sh
+```
+```
+CMD python3 start_pipeline.py
+```
+
+## When will it stop
+- hello-world image -> After printing text
+- database image -> When the database exits
+ 
+A more general image needs a more general start command
+- Ubuntu image -> When the shell is closed 
+
+## Overriding the default start command
+- Startring an image with a custom start command
+```
+docker run <image> <shell-command>
+```
+
+- Starting an image interactively with a custom start command
+```
+docker run -it <image> <shell-command>
+```
+
+## Summary
+![image](https://user-images.githubusercontent.com/117569148/223144201-f27bb64a-3b6e-4d97-9b96-dfd0e6951653.png)
