@@ -72,6 +72,9 @@ docker stop <container-id>
 
 - To remove or delete a container
 ```
+docker rm <container-id>
+```
+```
 docker container rm <container-id>
 ```
 ![image](https://user-images.githubusercontent.com/117569148/222965915-a7cdacad-6ab8-4856-b9ac-2f67477a1834.png)
