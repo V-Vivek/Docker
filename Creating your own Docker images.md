@@ -145,6 +145,7 @@ A more general image needs a more general start command
 - Ubuntu image -> When the shell is closed 
 
 ## Overriding the default start command
+Overriding the start command of an image has many uses. One of them is testing or debugging something in an image that already has a start command with a specific use case.
 - Startring an image with a custom start command
 ```
 docker run <image> <shell-command>
